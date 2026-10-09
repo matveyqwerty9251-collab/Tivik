@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Тест на прогрев аккаунта</title>
+<style>
+  * { margin: 0; padding: 0; }
+  body {
+    background: #000;
+    color: #fff;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    height: 100vh;
+  }
+  .slide {
+    height: 100vh;
+    scroll-snap-align: start;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 25px;
+    text-align: center;
+    position: relative;
+  }
+  .slide h1 {
+    font-size: 38px;
+    line-height: 1.25;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+  .slide p {
+    font-size: 26px;
+    line-height: 1.35;
+    font-weight: 700;
+    max-width: 95%;
+  }
+  .slide .big {
+    font-size: 56px;
+    font-weight: 900;
+    color: #a855f7;
+    margin: 15px 0;
+  }
+  .slide .step {
+    font-size: 52px;
+    font-weight: 900;
+    color: #a855f7;
+    margin-bottom: 15px;
+  }
+  .slide .small {
+    font-size: 20px;
+    color: #888;
+    margin-top: 15px;
+  }
+  .slide .banned {
+    font-size: 64px;
+    font-weight: 900;
+    color: #e11d48;
+    border: 5px solid #e11d48;
+    padding: 8px 24px;
+    transform: rotate(-10deg);
+    margin: 20px 0;
+  }
+  .slide .img-bottom {
+    width: 180px;
+    height: auto;
+    margin-top: 30px;
+  }
+  .slide .img-left {
+    position: absolute;
+    left: 25px;
+    bottom: 60px;
+    width: 140px;
+    height: auto;
+  }
+  .slide .img-right {
+    position: absolute;
+    right: 25px;
+    bottom: 60px;
+    width: 140px;
+    height: auto;
+  }
+  .slide .img-big {
+    width: 220px;
+    height: auto;
+    margin-top: 30px;
+  }
+</style>
+</head>
+<body>
+
+<!-- Слайд 1: шпиц слева -->
+<div class="slide">
+  <h1>Тест на прогрев аккаунта</h1>
+  <p>Также здесь можно его прогреть</p>
+  <img class="img-left" src="1000006195-no-bg-preview (carve.photos).png" alt="Шпиц">
+</div>
+
+<!-- Слайд 2: шпиц справа -->
+<div class="slide">
+  <p>Если у вас есть постоянный актив на аккаунте, стабильные просмотры не ниже</p>
+  <div class="big">1000–2000</div>
+  <p>то с вашим аккаунтом всё в порядке</p>
+  <img class="img-right" src="1000006195-no-bg-preview (carve.photos).png" alt="Шпиц">
+</div>
+
+<!-- Слайд 3 -->
+<div class="slide">
+  <p>Если же ваши просмотры чаще всего не превышают</p>
+  <div class="big">300–500</div>
+  <p>то следующие слайды для вас</p>
+  <img class="img-bottom" src="1000008832-no-bg-preview (carve.photos).png" alt="Иконка">
+</div>
+
+<!-- Слайд 4 -->
+<div class="slide">
+  <div class="step">Шаг 1</div>
+  <p>Копируешь ссылку этого видео</p>
+  <img class="img-bottom" src="1000008834-no-bg-preview (carve.photos).png" alt="Ссылка">
+</div>
+
+<!-- Слайд 5 -->
+<div class="slide">
+  <div class="step">Шаг 2</div>
+  <p>Лайкаешь это видео</p>
+  <img class="img-bottom" src="1000008835-no-bg-preview (carve.photos).png" alt="Лайк">
+</div>
+
+<!-- Слайд 6 -->
+<div class="slide">
+  <div class="step">Шаг 3</div>
+  <p>Оставляешь ответы на комментарии под этим видео и пишешь свой</p>
+  <img class="img-bottom" src="1000008836-no-bg-preview (carve.photos).png" alt="Комментарий">
+</div>
+
+<!-- Слайд 7 -->
+<div class="slide">
+  <div class="step">Шаг 4</div>
+  <p>Ищешь в поиске видео по такой же тематике, проделываешь те же действия</p>
+  <img class="img-bottom" src="1000008837-no-bg-preview (carve.photos).png" alt="Поиск">
+</div>
+
+<!-- Слайд 8 -->
+<div class="slide">
+  <p>Этими действиями вы покажете алгоритму TikTok, что вы не бот, и ваши видео начнут залетать в рекомендации</p>
+  <img class="img-bottom" src="1000008847-no-bg-preview (carve.photos).png" alt="Робот">
+</div>
+
+<!-- Слайд 9 -->
+<div class="slide">
+  <p>Если ничего из этого не помогает, скорее всего у вас теневой бан</p>
+  <div class="banned">BANNED</div>
+  <p class="small">Нужно обратиться в поддержку TikTok</p>
+  <img class="img-bottom" src="1000008839-no-bg-preview (carve.photos).png" alt="BANNED">
+</div>
+
+<!-- Слайд 10 -->
+<div class="slide">
+  <h1>Спасибо за просмотр!</h1>
+  <p>Надеюсь, всем помогло</p>
+  <img class="img-big" src="1000006195-no-bg-preview (carve.photos).png" alt="Шпиц">
+</div>
+
+</body>
+  </html>
